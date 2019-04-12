@@ -1,0 +1,294 @@
+@charset "UTF-8";
+body {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 9px;
+    background-color: #A6BDFF;
+    margin: 0px;
+}
+#wrap {
+    background-image: url(images/back.png);
+    height: 4000px;
+    width: 1200px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+#header {
+    height: 160px;
+    width: 1200px;
+}
+.logo {
+    margin: 0px;
+    float: left;
+    height: 160px;
+    width: 308px;
+}
+.page_nav {
+    float: right;
+    height: 38px;
+    width: 766px;
+    margin-top: 74px;
+}
+.page_nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-position: inside;
+    list-style-type: none;
+}
+.page_nav div ul li {
+    display: inline;
+    float: left;
+}
+.page_nav div ul li a:hover img{
+	padding-bottom:8px;
+	border-bottom: 5px solid #ffffff;
+}
+.page_nav div ul li a:active img{
+	opacity: 0.5;
+}
+#page_top{
+	width:107;
+	height:107;
+	position: fixed;
+  right: 0;
+  bottom: 0;
+}
+#page_top img:hover{
+	opacity:0.5;
+}
+#contents {
+	clear:both;
+    height: 3529px;
+    width: 1200px;
+}
+.main_img {
+    height: 696px;
+    width: 1200px;
+}
+.maincontents {
+    height: 2833px;
+    width: 998px;
+    margin-right: 83px;
+    margin-left: 121px;
+}
+#con_01 {
+    clear: both;
+    height: 701px;
+    width: 998px;
+}
+.head1 {
+    height: 92px;
+    width: 277px;
+    margin-right: 365px;
+    margin-left: 358px;
+}
+.text {
+    clear: both;
+    height: 609px;
+    width: 998px;
+}
+#con_02 {
+    clear: both;
+    height: 580px;
+    width: 996px;
+}
+.head2 {
+    clear: both;
+    height: 98px;
+    width: 381px;
+    margin-right: 315px;
+    margin-left: 299px;
+}
+.text2 {
+	float:left;
+    height: 482px;
+    width: 381px;
+}
+.img1 {
+    float: left;
+    height: 204px;
+    width: 274px;
+    margin-top: 37px;
+    margin-right: 26px;
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.img2 {
+    float: left;
+    height: 213px;
+    width: 284px;
+    margin-top: 184px;
+    margin-left: 31px;
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+#con_03 {
+	clear:both;
+    height: 1021px;
+    width: 996px;
+    
+}
+.head3 {
+	clear:both;
+    height: 98px;
+    width: 381px;
+    margin-right: 315px;
+    margin-left: 299px;
+}
+.img_expanding {
+	clear:both;
+    margin: 0px;
+    float: left;
+    height: 423px;
+    width: 278px;
+}
+.img_expanding img{
+	display:none;
+}
+.text3_1 {
+	float:right;
+    height: 112px;
+    width: 484px;
+    margin-top: 107px;
+    margin-left: 23px;
+	margin-right:211px;
+}
+
+.subimg1 {
+	float:left;
+    height: 159px;
+    width: 111px;
+    margin-top: 47px;
+    margin-left: 81px;
+}
+.subimg1 img:active{
+	position:relative;
+	top:-50px;
+	left:-358px;
+	transform: scale(2.5);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+
+.subimg2 {
+    float: left;
+    height: 129px;
+    width: 175px;
+    margin-top: 64px;
+    margin-left: 69px;
+}
+.subimg2 img:active{
+	position:relative;
+	top:-100px;
+	left:-527px;
+	transform: scale(2.1);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.subimg3 {
+    float: left;
+    height: 133px;
+    width: 175px;
+    margin-top: 64px;
+    margin-left: 55px;
+}
+.subimg3 img:active{
+	position:relative;
+	top:-100px;
+	left:-755px;
+	transform: scale(2.1);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.img_expanding2 {
+	margin:0px;
+    clear: both;
+    float: left;
+    height: 401px;
+    width: 278px;
+}
+.text3_2 {
+	float:right;
+    height: 118px;
+    width: 484px;
+    margin-top: 84px;
+    margin-left: 23px;
+	margin-right:211px;
+}
+.subimg4 {
+    float: left;
+    height: 160px;
+    width: 111px;
+    margin-top: 40px;
+    margin-left: 81px;
+}
+.subimg4 img:active{
+	position:relative;
+	top:-100px;
+	left:-344px;
+	transform: scale(2.5);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.subimg5 {
+    float: left;
+    height: 129px;
+    width: 175px;
+    margin-top: 64px;
+    margin-left: 69px;
+}
+.subimg5 img:active{
+	position:relative;
+	top:-100px;
+	left:-527px;
+	transform: scale(2.1);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.subimg6 {
+    float: left;
+    height: 164px;
+    width: 122px;
+    margin-top: 37px;
+    margin-left: 82px;
+}
+.subimg6 img:active{
+	position:relative;
+	top:-100px;
+	left:-782px;
+	transform: scale(2.1);
+	box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+}
+.con_04 {
+    clear: both;
+    height: 531px;
+    width: 996px;
+}
+.head4 {
+    clear: both;
+    height: 87px;
+    width: 381px;
+    margin-right: 315px;
+    margin-left: 299px;
+}
+.text4 {
+	clear:both;
+    height: 444px;
+    width: 996px;
+}
+.link{
+	position:relative;
+	bottom:244px;
+	left:260px;
+}
+.link img:hover{
+	opacity:0.5;
+}
+.text4 map　area:hover{
+	opacity:0.5;
+}
+#footer {
+    height: 311px;
+    width: 1200px;
+}
+.text5 {
+    height: 263px;
+    width: 589px;
+    margin-right: 303px;
+    margin-left: 310px;
+}
+
